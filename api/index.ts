@@ -72,9 +72,4 @@ app.get("/medicaldevice", function (req: any, res: any) {
 });
 
 // 🔹 서버 실행 시 API 테스트 URL 출력
-app.listen(3000, function () {
-    const baseUrl = "http://127.0.0.1:3000/medicaldevice";
-    const params = `pageNo=1&numOfRows=3&type=xml&PRDUCT_PRMISN_NO=${encodeURIComponent("제허 25-74 호")}`;
-    console.log("🚀 서버 실행 중...");
-    console.log(`📌 API 테스트 URL: ${baseUrl}?${params}`);
-  });
+    export default app;
