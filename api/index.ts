@@ -22,7 +22,7 @@ app.get("/medicaldevice", function (req: any, res: any) {
   }
 
   // 🔹 API 엔드포인트 설정
-  var api_url = "https://apis.data.go.kr/1471000/MdlpPrdlstPrmisnInfoService04/getMdlpPrdlstPrmisnItem03";
+  var api_url = "https://apis.data.go.kr/1471000/MdlpPrdlstPrmisnInfoService05/getMdlpPrdlstPrmisnItem04";
 
   var options = {
     url: api_url,
